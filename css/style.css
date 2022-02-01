@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Serif+4:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #075E54;
+    --primary-color: rgb(7,94,84);
     --text-color: rgb(255, 255, 255);
 }
 
@@ -32,26 +32,17 @@ body {
   .btn-primary {
       background-color: var(--primary-color);
       color: var(--text-color);
-      /* font-weight: bold; */
   }
 
   .btn-secondary {
       background-color: white;
       color: var(--primary-color);
-      /* font-weight: bold; */
   }
 
   .main-container {
       display: flex;
       margin-top: 1rem;
-      /* align-items: center; */
-      /* width: 80%; */
-      /* background-color: red; */
-      /* margin: 1rem; */
       font-size: 1.2em;
-      /* justify-content: center; */
-      /* align-items: center; */
-      flex-wrap: wrap;
   }
 
   .main-section {
