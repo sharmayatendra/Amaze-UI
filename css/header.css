@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Serif+4:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #075E54;
+    --text-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Source Serif 4', sans-serif;
+    
+}
+
+.header {
+    background-color: var(--primary-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    color: var(--text-color);
+    flex-wrap: wrap;
+}
+
+.header-left-icons {
+    display: flex;
+    align-items: center;
+    padding: 4px;
+}
+
+.header-right-icons {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.header-heading {
+    font-size: 1.5rem;
+}
+.icons {
+    font-size: 2rem;
+    margin-right: 2rem;
+    padding: 2px;
+}
+
+
+.icons:hover {
+    cursor: pointer;
+    background-color: rgba(223, 215, 215, 0.829);
+    border-radius: 50%;
+  }
+
+  .fixed-header {
+    position: sticky;
+    top: 0;
+  }
+
+  .link {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-right: 2rem;
+  }

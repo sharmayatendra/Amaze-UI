@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Serif+4:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #075E54;
+    --text-color: rgb(255, 255, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+}
+
+body {
+    font-family: 'Source Serif 4', sans-serif;
+}
+
+  .link {
+    text-decoration: none;
+    color: var(--text-color);
+    margin-right: 2rem;
+  }
+
+  .btn {
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 0.75rem 1.5rem;
+    font-size: 1em;
+  }
+
+  .btn-primary {
+      background-color: var(--primary-color);
+      color: var(--text-color);
+      /* font-weight: bold; */
+  }
+
+  .btn-secondary {
+      background-color: white;
+      color: var(--primary-color);
+      /* font-weight: bold; */
+  }
+
+  .main-container {
+      display: flex;
+      margin-top: 1rem;
+      /* align-items: center; */
+      /* width: 80%; */
+      /* background-color: red; */
+      /* margin: 1rem; */
+      font-size: 1.2em;
+      /* justify-content: center; */
+      /* align-items: center; */
+      flex-wrap: wrap;
+  }
+
+  .main-section {
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+  }
+
+  .main-para {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+
+  }
+
+  .btn {
+      margin-top: 1rem;
+      margin-right: 1rem;
+  }
+
+  .hero-img {
+    width: 60%;
+    object-fit: contain;
+  }
+
+  .main-heading {
+      color: var(--primary-color);
+      font-weight: 900;
+  }
+
+  span {
+      color: var(--primary-color);
+      font-weight: bold;
+  }
