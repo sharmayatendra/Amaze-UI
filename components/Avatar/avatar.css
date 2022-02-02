@@ -1,0 +1,16 @@
+.rounded-avatar {
+    width: 4em;
+    height: 4em;
+    border-radius: 50%;
+    margin: 2rem 2rem 2rem 0rem;
+}
+
+.avatar-large {
+    width: 6em;
+    height: 6em;
+}
+
+.avatar-small {
+    width: 2em;
+    height: 2em;
+}

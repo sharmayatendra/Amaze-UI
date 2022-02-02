@@ -1,0 +1,68 @@
+:root {
+    --online-icon-color: rgb(114, 187, 4);
+    --offline-icon-color: rgb(212, 30, 30);
+    --idle-icon-color: rgb(255, 167, 5);
+    --badge-bg-color: rgb(222, 184, 135);
+}
+
+.badge-flex-container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+}
+
+.badge-container {
+    position: relative;
+    z-index: -1;
+}
+
+.badge {
+    position: absolute;
+    text-align: center;
+    border: 2px none;
+    border-radius: 50%;
+}
+
+.large-size.online {
+    height: 1.2em;
+    width: 1.2em;
+    right: 3em;
+    background-color: var(--online-icon-color);
+    top: 6em;
+    left: 4.8em;
+}
+
+.medium-size.offline {
+    height: 1em;
+    width: 1em;
+    background-color: var(--offline-icon-color);
+    top: 4.3em;
+    left: 3.3em;
+}
+
+.small-size.idle {
+    height: 0.5em;
+    width: 0.5em;
+    top: 3em;
+    left: 1.7em;
+    background-color: var(--idle-icon-color);
+}
+
+.icon-large {
+    font-size: 5rem;
+}
+
+.icon-medium {
+    font-size: 4rem;
+}
+
+.icon-small {
+    font-size: 3rem;
+}
+
+.icon-badge {
+    width: 1.3em;
+    background-color: var(--badge-bg-color);
+    top: 0.1em;
+    right: 0.3em;
+}
