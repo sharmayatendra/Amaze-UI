@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="button.css">
+    <title>Button</title>
+</head>
+
+<body>
+    <header class="header fixed-header">
+        <div class="header-left-icons">
+            <p class="header-heading">AMAZE-UI</p>
+        </div>
+        <div class="header-right-icons">
+            <a href="#" class="link">Documentation</a>
+        </div>
+    </header>
+    <div class="comp-main-container">
+        <nav class="navbar">
+            <p><a href="/index.html">Home</a></p>
+            <h3>Components</h3>
+            <ul class="nav-list">
+                <li class="nav-links"><a href="../Avatar/avatar.html">Avatar</a></li>
+                <li class="nav-links"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="nav-links"><a href="../Badge/badge.html">Badge</a></li>
+                <li class="nav-links"><a href="#">Button</a></li>
+                <li class="nav-links"><a href="#">Card</a></li>
+                <li class="nav-links"><a href="#">Image</a></li>
+                <li class="nav-links"><a href="#">Input</a></li>
+                <li class="nav-links"><a href="#">List</a></li>
+                <li class="nav-links"><a href="#">Navigation</a></li>
+                <li class="nav-links"><a href="#">Toast</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <h1>Button</h1>
+            <hr>
+            <p class="main-description">Buttons are used when there is need of user for some action i.e Call to Action.
+            </p>
+            <p class="main-description"><span>Amaze-UI</span> has different kinds of buttons.</p>
+            <div class="comp-container">
+                <h2 class="comp-heading">Primary Buttons</h2>
+                <div class="btn-container">
+                    <button class="btn btn-primary-solid">Primary-Solid</button>
+                    <button class="btn btn-primary-outlined">Primary-Outline</button>
+                </div>
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-solid%2522%253EPrimary-Solid%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520btn-primary-outlined%2522%253EPrimary-Outline%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <div class="comp-container">
+                <h2 class="comp-heading">Link Buttons</h2>
+                <div class="btn-container">
+                    <a href="#" role="button" class="btn link link-primary btn-primary-solid">Primary-Link</a>
+                    <a href="#" role="button" class="btn link link-secondary btn-primary-outlined">Secondary-Link</a>
+                </div>
+                <iframe class="code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%253Ca%2520href%253D%2522%2523%2522%2520role%253D%2522button%2522%2520class%253D%2522btn%2520link%2520link-primary%2520btn-primary-solid%2522%253EPrimary-Link%253C%252Fa%253E%250A%2520%253Ca%2520href%253D%2522%2523%2522%2520role%253D%2522button%2522%2520class%253D%2522btn%2520link%2520link-secondary%2520btn-primary-outlined%2522%253ESecondary-Link%253C%252Fa%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+            <div class="comp-container">
+                <h2 class="comp-heading">Icon Buttons</h2>
+                <div class="btn-container">
+                    <button class="btn flex icon-btn"><span class="material-icons-outlined icon">
+                            shopping_cart
+                        </span>Add to Cart</button>
+                    <button class="btn flex icon-btn"><span class="material-icons-outlined icon">
+                            favorite
+                        </span>Wishlist</button>
+                </div>
+                <iframe class="code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522btn-container%2522%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520flex%2520icon-btn%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253Eshopping_cart%250A%2520%2520%2520%253C%252Fspan%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%253Cbutton%2520class%253D%2522btn%2520flex%2520icon-btn%2522%253E%253Cspan%2520class%253D%2522material-icons-outlined%2520icon%2522%253Efavorite%250A%2520%2520%2520%253C%252Fspan%253EWishlist%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+            <div class="comp-container">
+                <h2 class="comp-heading">Floating Action Buttons</h2>
+                <div class="btn-container">
+                    <button class="float-btn">
+                        <span class="material-icons-outlined upward-btn">
+                            arrow_upward
+                        </span>
+                    </button>
+                </div>
+                <iframe class="code-snippet"
+                    src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522float-btn%2522%253E%250A%2520%2520%253Cspan%2520class%253D%2522material-icons-outlined%2520upward-btn%2522%253Earrow_upward%253C%252Fspan%253E%250A%253C%252Fdiv%253E"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
