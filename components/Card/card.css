@@ -2,7 +2,7 @@
     --card-hover-color: rgb(243, 241, 241);
     --card-text-color: rgb(128, 128, 128);
     --bg-color: rgb(255, 255, 255);
-    --bg-color2: rgb(56, 142, 60);
+    --bg-color-rating: rgb(56, 142, 60);
     --badge-color: rgb(76, 37, 168);
     --danger-color: rgb(255, 0, 0);
     --btn-color: rgb(255, 159, 0);
@@ -43,7 +43,7 @@
     width: 3.5rem;
     align-items: center;
     justify-content: space-around;
-    background-color: var(--bg-color2);
+    background-color: var(--bg-color-rating);
     border-radius: 4px;
     color: var(--bg-color);
 }
@@ -63,7 +63,7 @@
 }
 
 .discount {
-    color: var(--bg-color2);
+    color: var(--bg-color-rating);
     font-weight: bold;
     font-size: 1.2em;
 }
