@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="card.css">
+    <title>Card</title>
+</head>
+
+<body>
+    <header class="header fixed-header">
+        <div class="header-left-icons">
+            <p class="header-heading">AMAZE-UI</p>
+        </div>
+        <div class="header-right-icons">
+            <a href="#" class="link">Documentation</a>
+        </div>
+    </header>
+    <div class="comp-main-container">
+        <nav class="navbar">
+            <p><a href="/index.html">Home</a></p>
+            <h3>Components</h3>
+            <ul class="nav-list">
+                <li class="nav-links"><a href="/components/Avatar/avatar.html">Avatar</a></li>
+                <li class="nav-links"><a href="../Alert/alert.html">Alert</a></li>
+                <li class="nav-links"><a href="/components/Badge/badge.html">Badge</a></li>
+                <li class="nav-links"><a href="../Button/button.html">Button</a></li>
+                <li class="nav-links"><a href="#">Card</a></li>
+                <li class="nav-links"><a href="#">Image</a></li>
+                <li class="nav-links"><a href="#">Input</a></li>
+                <li class="nav-links"><a href="#">List</a></li>
+                <li class="nav-links"><a href="#">Navigation</a></li>
+                <li class="nav-links"><a href="#">Toast</a></li>
+            </ul>
+        </nav>
+        <main class="main-content">
+            <h1>Card</h1>
+            <hr>
+            <p class="main-description">Cards are used to showcase the information regarding a product, text etc. so
+                that user can easily see it.
+            </p>
+            <p class="main-description"><span>Amaze-UI</span> has different kinds of cards.</p>
+            <div class="comp-container">
+                <h2 class="comp-heading">Vertical Card</h2>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="/images/OnePlus.jpg" alt="river-scene">
+                        </div>
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2522%253E%250A%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252FOnePlus.jpg%2522%2520alt%253D%2522river-scene%2522%253E%250A%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%253C%252Ffooter%253E%250A%2520%2520%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+
+            </div>
+            <div class="comp-container">
+                <h2 class="comp-heading">Card with badge</h2>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="card-img img-rel">
+                            <img src="/images/OnePlus.jpg" alt="river-scene">
+                            <span class="card-badge">New</span>
+                        </div>
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252FOnePlus.jpg%2522%2520alt%253D%2522river-scene%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+
+            </div>
+
+            <div class="comp-container">
+                <h2 class="comp-heading">Card with dismiss</h2>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <div class="card-img img-rel">
+                            <img src="/images/OnePlus.jpg" alt="river-scene">
+                            <span class="card-badge">New</span>
+                            <i class="fas fa-times-circle dismiss-btn"></i>
+                        </div>
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252FOnePlus.jpg%2522%2520alt%253D%2522river-scene%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520dismiss-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <div class="comp-container">
+                <h2 class="comp-heading">Card with Text-Overlay</h2>
+                <div class="card">
+                    <div class="card-wrapper card-opaque">
+                        <div class="card-img img-rel">
+                            <img src="/images/OnePlus.jpg" alt="river-scene">
+                            <span class="card-badge">New</span>
+                            <i class="fas fa-times-circle dismiss-btn"></i>
+                            <span class="text-overlay">Out of Stock</span>
+                        </div>
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer card-opaque">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+                src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520img-rel%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252FOnePlus.jpg%2522%2520alt%253D%2522river-scene%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522card-badge%2522%253ENew%253C%252Fspan%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-times-circle%2520dismiss-btn%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cspan%2520class%253D%2522text-overlay%2522%253EOut%2520of%2520Stock%253C%252Fspan%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+                sandbox="allow-scripts allow-same-origin">
+              </iframe>
+            </div>
+
+            <div class="comp-container">
+                <h2 class="comp-heading">Text only Card</h2>
+                <div class="card">
+                    <div class="card-wrapper">
+                        <!-- <div class="card-img">
+                            <img src="/images/OnePlus.jpg"
+                                alt="river-scene">
+                        </div> -->
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+
+            <div class="comp-container">
+                <h2 class="comp-heading">Card with Shadow</h2>
+                <div class="card shadowed-card">
+                    <div class="card-wrapper">
+                        <div class="card-img">
+                            <img src="/images/OnePlus.jpg" alt="river-scene">
+                        </div>
+
+                        <div class="card-heading-wrapper">
+                            <h2 class="card-main-heading">Mobile | OnePlus</h2>
+                            <h3 class="card-sub-heading gray-text">OnePlus-9</h3>
+                        </div>
+
+                        <div class="card-content">
+                            <div class="rating">4.7<i class="far fa-star star-icon"></i></div>
+                            <div class="price-container">
+                                <h2>₹22,500</h2>
+                                <p class="strike-price">₹25,000</p>
+                                <p class="discount">10% off</p>
+                            </div>
+                        </div>
+                    </div>
+                    <footer class="card-footer">
+                        <div class="card-footer-btn">
+                            <button class="card-btn">Add to Cart</button>
+                            <button class="card-btn">Buy Now</button>
+                        </div>
+                        <div class="card-footer-icons">
+                            <i class="fas fa-heart card-icons"></i>
+                            <i class="fas fa-share-alt card-icons"></i>
+                            <i class="fas fa-ellipsis-v card-icons"></i>
+                        </div>
+                    </footer>
+                </div>
+                <iframe class="code-snippet"
+  src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522card%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522card-wrapper%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-img%2520shadowed-card%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cimg%2520src%253D%2522%252Fimages%252FOnePlus.jpg%2522%2520alt%253D%2522river-scene%2522%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-heading-wrapper%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%2520class%253D%2522card-main-heading%2522%253EMobile%2520%257C%2520OnePlus%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch3%2520class%253D%2522card-sub-heading%2520gray-text%2522%253EOnePlus-9%253C%252Fh3%253E%250A%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-content%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522rating%2522%253E4.7%253Ci%2520class%253D%2522far%2520fa-star%2520star-icon%2522%253E%253C%252Fi%253E%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522price-container%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ch2%253E%25E2%2582%25B922%252C500%253C%252Fh2%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522strike-price%2522%253E%25E2%2582%25B925%252C000%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522discount%2522%253E10%2525%2520off%253C%252Fp%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253Cfooter%2520class%253D%2522card-footer%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-btn%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EAdd%2520to%2520Cart%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cbutton%2520class%253D%2522card-btn%2522%253EBuy%2520Now%253C%252Fbutton%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-footer-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-heart%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-share-alt%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ci%2520class%253D%2522fas%2520fa-ellipsis-v%2520card-icons%2522%253E%253C%252Fi%253E%250A%2520%2520%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%253C%252Ffooter%253E%250A%253C%252Fdiv%253E"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
