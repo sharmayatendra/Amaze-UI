@@ -12,10 +12,12 @@
 .navbar {
     padding: 0 2rem 0 2rem;
     width: 20vw;
-    margin-right: 2rem;
+    /* margin-right: 2rem;
     margin-left: 2rem;
-    margin-top: 2rem;
+    margin-top: 2rem; */
+    padding: 2rem;
     position: fixed;
+    top: 4rem;
 }
 
 .navbar > p {
@@ -42,7 +44,7 @@ a {
 
 .main-content {
     margin-left: 18rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     width: 70vw; 
 }
 

@@ -25,6 +25,7 @@ body {
     padding: 1rem;
     color: var(--text-color);
     flex-wrap: wrap;
+    z-index: 99;
 }
 
 .header-left-icons {
