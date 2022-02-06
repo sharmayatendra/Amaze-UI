@@ -57,7 +57,7 @@ body {
   }
 
   .fixed-header {
-    position: fixed;
+    position: sticky;
     top: 0;
   }
 

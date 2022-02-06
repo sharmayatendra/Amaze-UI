@@ -1,0 +1,21 @@
+.list-container {
+    padding: 1rem;
+    width: 20rem;
+    border: 2px solid var(--primary-color);
+}
+
+.list-item {
+    list-style: none;
+    padding: 0.5rem;
+    margin-top: 0.2rem;
+    font-size: 1.1em;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    color: var(--primary-color);
+}
+
+input[type="checkbox"] {
+    margin-right: 1rem;
+}
