@@ -1,0 +1,49 @@
+:root {
+    --bg-color: rgb(43, 43, 43);
+    --text-color: rgb(252, 247, 247);
+    --btn-color: rgb(226, 11, 226);
+}
+
+.snackbar-container {
+    background-color: var(--bg-color);
+    box-shadow: 0px 0px 1px 1px rgba(0,0,0,0.2);
+    width: 30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: var(--text-color);
+    padding: 1rem;
+    border: 2px none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    margin-left: 8px;
+}
+
+.snackbar-btn-container > span {
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.snackbar-btn {
+    color: var(--btn-color);
+    background-color: var(--bg-color);
+    border: none;
+    font-size: 1em;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-right: 1.5rem;
+}
+
+.stacked {
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    right: 0;
+    margin-right: 4px;
+}
+
+.stacked-btn {
+    margin-top: 1rem;
+    margin-left: auto;
+}
