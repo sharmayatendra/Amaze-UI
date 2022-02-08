@@ -1,6 +1,6 @@
 :root {
-    --error-color: rgb(255, 0, 0);
-    --success-color: rgb(0, 128, 0);
+    --error-input-color: rgb(255, 0, 0);
+    --success-input-color: rgb(0, 128, 0);
 }
 
 .inp-container {
@@ -21,19 +21,19 @@ input[type="text"] {
 }
 
 .error {
-    color: var(--error-color);
+    color: var(--error-input-color);
 }
 
  .inp-container > .error-inp {
-    border: 2px solid var(--error-color);
+    border: 2px solid var(--error-input-color);
     outline: none;
 }
 
 .success {
-    color: var(--success-color);
+    color: var(--success-input-color);
 }
 
 .inp-container > .success-inp {
-    border: 2px solid var(--success-color);
+    border: 2px solid var(--success-input-color);
     outline: none;
 }

@@ -1,11 +1,11 @@
 :root {
     --card-hover-color: rgb(243, 241, 241);
     --card-text-color: rgb(128, 128, 128);
-    --bg-color: rgb(255, 255, 255);
+    --bg-card-color: rgb(255, 255, 255);
     --bg-color-rating: rgb(56, 142, 60);
-    --badge-color: rgb(76, 37, 168);
-    --danger-color: rgb(255, 0, 0);
-    --btn-color: rgb(255, 159, 0);
+    --badge-card-color: rgb(76, 37, 168);
+    --danger-card-color: rgb(255, 0, 0);
+    --btn-color-2: rgb(255, 159, 0);
 }
 
 .card {
@@ -45,7 +45,7 @@
     justify-content: space-around;
     background-color: var(--bg-color-rating);
     border-radius: 4px;
-    color: var(--bg-color);
+    color: var(--bg-card-color);
 }
 
 .price-container {
@@ -81,8 +81,8 @@
 }
 
 .card-btn {
-    background-color: var(--bg-color);
-    color: var(--bg-color);
+    background-color: var(--bg-card-color);
+    color: var(--bg-card-color);
     padding: 0.8rem;
     letter-spacing: 1px;
     font-weight: bolder;
@@ -91,7 +91,7 @@
     cursor: pointer;
 }
 .card-btn:first-child {
-    background-color: var(--btn-color);
+    background-color: var(--btn-color-2);
 }
 
 .card-btn:nth-child(2) {
@@ -113,8 +113,8 @@
     width: auto;
     padding: 4px;
     border-radius: 2px;
-    background-color: var(--badge-color);
-    color: var(--bg-color);
+    background-color: var(--badge-card-color);
+    color: var(--bg-card-color);
     position: absolute;
     left: 0rem;
     top: 1rem;
@@ -129,15 +129,15 @@
     position: absolute;
     right: 1em;
     top: 1em;
-    color: var(--bg-color);
+    color: var(--bg-card-color);
     font-size: 1.5em;
 }
 
 .text-overlay {
-    background-color: var(--bg-color);
+    background-color: var(--bg-card-color);
     position: absolute;
     display: inline-block;
-    color: var(--danger-color);
+    color: var(--danger-card-color);
     padding: 1rem;
     top: 5em;
     left: 5em;

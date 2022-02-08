@@ -1,7 +1,7 @@
 :root {
-    --btn-color: rgb(255, 255, 255);
-    --hover-color: rgb(13, 104, 104);
-    --secondary-link-color: rgb(70, 104, 116);
+    --btn-color-1: rgb(255, 255, 255);
+    --hover-btn-color: rgb(13, 104, 104);
+    --secondary-link-btn-color: rgb(70, 104, 116);
     --icon-btn-color1: rgb(53, 119, 53);
     --icon-btn-color2: rgb(241, 109, 109);
 }
@@ -21,11 +21,11 @@
 
 .btn-primary-solid {
     background-color: var(--primary-color);
-    color: var(--btn-color);
+    color: var(--btn-color-1);
 }
 
 .btn-primary-solid:hover {
-    background-color: var(--hover-color);
+    background-color: var(--hover-btn-color);
     cursor: pointer;
 }
 
@@ -36,7 +36,7 @@
 
 .btn-primary-outlined:hover {
     background-color: var(--primary-color);
-    color:var(--btn-color);
+    color:var(--btn-color-1);
     cursor: pointer;
 }
 
@@ -45,11 +45,11 @@
 }
 
 .link-primary {
-    color: var(--btn-color);
+    color: var(--btn-color-1);
 }
 
 .link-secondary {
-    color: var(--secondary-link-color);
+    color: var(--secondary-link-btn-color);
 }
 
 .flex {
@@ -59,13 +59,13 @@
 
 .icon {
     font-size: 1.1em;
-    color: var(--btn-color);
+    color: var(--btn-color-1);
     margin-right: 4px;
-    color: var(--btn-color);
+    color: var(--btn-color-1);
 }
 
 .icon-btn {
-    color: var(--btn-color);
+    color: var(--btn-color-1);
 }
 
 .icon-btn:first-child {
@@ -95,7 +95,7 @@
 }
 
 .upward-btn {
-    color: var(--btn-color);
+    color: var(--btn-color-1);
     font-size: 2rem;
 }
 

@@ -1,8 +1,8 @@
 :root {
-    --success-color: rgb(165, 235, 165);
-    --warning-color: rgb(235, 235, 132);
-    --danger-color: rgb(236, 118, 118);
-    --info-color: rgb(173, 216, 230);
+    --success-alert-color: rgb(165, 235, 165);
+    --warning-alert-color: rgb(235, 235, 132);
+    --danger-alert-color: rgb(236, 118, 118);
+    --info-alert-color: rgb(173, 216, 230);
 }
 
 .alert-container {
@@ -19,37 +19,37 @@
 }
 
 .alert-success {
-    background-color: var(--success-color);
+    background-color: var(--success-alert-color);
 }
 
 .alert-warning {
-    background-color: var(--warning-color);
+    background-color: var(--warning-alert-color);
 }
 
 .alert-danger {
-    background-color: var(--danger-color);
+    background-color: var(--danger-alert-color);
 }
 
 .alert-info {
-    background-color: var(--info-color);
+    background-color: var(--info-alert-color);
 }
 
 .outline-success {
-    border: 2px solid var(--success-color);
-    color: var(--success-color);
+    border: 2px solid var(--success-alert-color);
+    color: var(--success-alert-color);
 }
 
 .outline-warning {
-    border: 2px solid var(--warning-color);
-    color: var(--warning-color);
+    border: 2px solid var(--warning-alert-color);
+    color: var(--warning-alert-color);
 }
 
 .outline-danger {
-    border: 2px solid var(--danger-color);
-    color: var(--danger-color);
+    border: 2px solid var(--danger-alert-color);
+    color: var(--danger-alert-color);
 }
 
 .outline-info {
-    border: 2px solid var(--info-color);
-    color: var(--info-color);
+    border: 2px solid var(--info-alert-color);
+    color: var(--info-alert-color);
 }
