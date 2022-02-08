@@ -63,6 +63,12 @@ a {
     font-size: 2em;
 }
 
+.comp-description {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 1.2em;
+}
+
 span {
     color: var(--primary-color);
     font-weight: bold;
