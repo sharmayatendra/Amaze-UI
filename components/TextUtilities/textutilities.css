@@ -1,0 +1,24 @@
+:root {
+    --grey-text-color: rgb(128, 128, 128);
+}
+
+.textutil-container {
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.heading , .small-text , .centered-text{
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.small-text {
+    display: block;
+}
+
+.grey-text {
+    color: var(--grey-text-color);
+}
+
+.centered-text {
+    text-align: center;
+}

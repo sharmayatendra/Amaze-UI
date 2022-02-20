@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans:wght@400;700&family=Source+Serif+4:wght@400;700&display=swap');
 
 :root {
-    --primary-color: #075E54;
-    --secondary-text-color: rgba(58, 58, 58, 0.808);
+    --primary-color: rgb(7,94,84);
+    --secondary-text-color: rgb(58, 58, 58);
 }
 
 .comp-main-container {
@@ -35,11 +35,21 @@ a {
     text-decoration: none;
 }
 
+.active-link {
+    color: var(--primary-color);
+}
+
 .nav-list > li {
     list-style: none;
     font-size: 1.2em;
-    margin: 6px 2px;
-    padding: 4px;
+    margin: 4px 2px;
+    padding: 2px;
+}
+
+.nav-list > li:hover {
+    background-color: rgb(228, 228, 228);
+    border: 2px;
+    border-radius: 4px;
 }
 
 .main-content {
