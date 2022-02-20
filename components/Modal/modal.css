@@ -1,0 +1,40 @@
+:root {
+    --modal-hover-color: rgba(235, 230, 230, 0.966);
+    --modal-text-color: rgb(128, 128, 128);
+}
+
+.modal-container {
+    border: 1px solid var(--primary-color);
+    width: 20rem;
+    padding: 1rem;
+}
+
+.modal-text {
+    color: var(--modal-text-color);
+    margin-top: 0.5rem;
+    font-size: 1.1em;
+}
+
+.alert-btn-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+
+.alert-btn {
+    border: none; 
+    color: var(--primary-color);
+    font-weight: bolder;
+    margin-left: 8px;
+    font-size: 1em;
+    letter-spacing: 1px;
+    padding: 8px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.alert-btn:hover {
+    background-color: var(--modal-hover-color);
+    border-radius: 4px;
+}
