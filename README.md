@@ -82,15 +82,15 @@ Import the whole library or components according to your need.
 - Toast ```(https://amaze-ui.netlify.app/components/Toast/toast.html)```
     - Baseline Toast
     - Stacked Toast
-- Text Utilities ```(https://amaze-ui.netlify.app/components/textutilities/textutilities.html)```
+- Text Utilities ```(https://amaze-ui.netlify.app/components/Textutilities/textutilities.html)```
     - Headings
     - Small Text
     - Grey Text
     - Centered Text
-- Grid ```(https://amaze-ui.netlify.app/components/grid/grid.html)```
+- Grid ```(https://amaze-ui.netlify.app/components/Grid/grid.html)```
     - Grid-2 : Two items in a grid
     - Grid-3 : Three items
-- Modal ```(https://amaze-ui.netlify.app/components/modal/modal.html)```
+- Modal ```(https://amaze-ui.netlify.app/components/Modal/modal.html)```
 
 ## Used By
 
