@@ -1,0 +1,11 @@
+.slider-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid var(--primary-color);
+    padding: 1rem;
+}
+
+.slider {
+    margin: 0 4px;
+    width: 100%;
+}

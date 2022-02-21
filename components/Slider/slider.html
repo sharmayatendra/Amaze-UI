@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/header.css">
     <link rel="stylesheet" href="/css/main.css">
-    <link rel="stylesheet" href="navigation.css">
-    <title>Navigation</title>
+    <link rel="stylesheet" href="slider.css">
+    <script src="slider.js" defer></script>
+    <title>Slider</title>
 </head>
 
 <body>
@@ -33,35 +34,32 @@
                 <li class="nav-links"><a href="../Image/image.html">Image</a></li>
                 <li class="nav-links"><a href="../Input/input.html">Input</a></li>
                 <li class="nav-links"><a href="../List/list.html">List</a></li>
-                <li class="nav-links"><a href="#" class="active-link">Navigation</a></li>
+                <li class="nav-links"><a href="../Navigation/navigation.html">Navigation</a></li>
                 <li class="nav-links"><a href="../Toast/toast.html">Toast</a></li>
                 <li class="nav-links"><a href="../TextUtilities/textutilities.html">Text Utilities</a></li>
                 <li class="nav-links"><a href="../Grid/grid.html">Grid</a></li>
                 <li class="nav-links"><a href="../Modal/modal.html">Modal</a></li>
-                <li class="nav-links"><a href="../Slider/slider.html">Slider</a></li>
+                <li class="nav-links"><a href="#" class="active-link">Slider</a></li>
             </ul>
         </nav>
         <main class="main-content">
-            <h1>Navigation</h1>
+            <h1>Slider</h1>
             <hr>
-            <p class="main-description">Navigation bar is used to navigate through the websites.
+            <p class="main-description">A slider is an input field that merchants can use to select a numeric value
+                within a given range.
             </p>
-            <p class="main-description"><span>Amaze-UI</span> has simple navigation bar.</p>
+            <p class="main-description"><span>Amaze-UI</span> has simple slider.</p>
             <div class="comp-container">
-                <h2 class="comp-heading">Navigation</h2>
-                <p class="comp-description">This is simple desktop navigation.Refer code for the example.</p>
-                <header class="header">
-                    <div class="header-left-icons">
-                        <p class="header-heading">AMAZE-UI</p>
-                    </div>
-                    <div class="header-right-icons">
-                        <a href="#" class="link">Resources</a>
-                        <a href="#" class="link">Links</a>
-                        <a href="#" class="link">Examples</a>
-                    </div>
-                </header>
+                <h2 class="comp-heading">Simple Slider</h2>
+                <p class="comp-description">A simple slider is used to set price or range for the input mainly on
+                    e-commerce website.</p>
+                <div class="slider-container">
+                    <p>0</p>
+                    <input class="slider" type="range" min="0" max="100" value="30">
+                    <p class="max-val">100</p>
+                </div>
                 <iframe class="code-snippet"
-                    src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=617&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cheader%2520class%253D%2522header%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-left-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cp%2520class%253D%2522header-heading%2522%253EAMAZE-UI%253C%252Fp%253E%250A%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253Cdiv%2520class%253D%2522header-right-icons%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2522%253EResources%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2522%253ELinks%253C%252Fa%253E%250A%2520%2520%2520%2520%2520%2520%253Ca%2520href%253D%2522%2523%2522%2520class%253D%2522link%2522%253EExamples%253C%252Fa%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fheader%253E"
+                    src="https://carbon.now.sh/embed?bg=rgba%287%2C94%2C84%2C1%29&t=night-owl&wt=none&l=htmlmixed&width=438&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=0px&ph=0px&ln=false&fl=1&fm=Hack&fs=14px&lh=171%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522slider-container%2522%253E%250A%2520%2520%253Cp%253E0%253C%252Fp%253E%250A%2520%2520%253Cinput%2520class%253D%2522slider%2522%2520type%253D%2522range%2522%2520min%253D%25220%2522%2520max%253D%2522100%2522%2520value%253D%252230%2522%253E%2520%250A%2520%2520%253Cp%2520class%253D%2522max-val%2522%253E100%253C%252Fp%253E%250A%253C%252Fdiv%253E"
                     sandbox="allow-scripts allow-same-origin">
                 </iframe>
             </div>
