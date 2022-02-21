@@ -1,0 +1,25 @@
+:root {
+    --grid-item-bg-color: rgb(212, 243, 212);
+}
+.grid-two-items {
+    border: 1px solid var(--primary-color);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1rem;
+}
+
+.grid-item {
+    padding: 3rem;
+    background-color: var(--grid-item-bg-color);
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.grid-three-items {
+    border: 1px solid var(--primary-color);
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+}
