@@ -91,6 +91,7 @@ Import the whole library or components according to your need.
     - Grid-2 : Two items in a grid
     - Grid-3 : Three items
 - Modal ```(https://amaze-ui.netlify.app/components/Modal/modal.html)```
+- Slider ```(https://amaze-ui.netlify.app/components/slider/slider.html)```
 
 ## Used By
 
