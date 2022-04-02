@@ -19,6 +19,8 @@
     padding: 2rem;
     position: fixed;
     top: 4rem;
+    height: 90vh;
+    overflow-y: scroll;
 }
 
 .navbar > p {
