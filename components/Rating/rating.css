@@ -1,0 +1,12 @@
+:root {
+    --star-color: rgb(245, 161, 7);
+}
+
+.star {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.checked {
+    color: var(--star-color);
+}
